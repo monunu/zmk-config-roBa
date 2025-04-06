@@ -138,10 +138,10 @@
 
         NUM {
             bindings = <
-&trans   &kp F7  &kp F8  &kp F9  &kp F10                          &kp ASTERISK     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS
-&trans   &kp F4  &kp F5  &kp F6  &kp F11  &trans      &kp EQUAL   &kp SLASH        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS
-&kp ESC  &kp F1  &kp F2  &kp F3  &kp F12  &trans      &kp PERIOD  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp BACKSPACE
-&trans   &trans  &trans  &trans  &trans   &trans      &pim        &pim2                                                               &trans
+&trans   &kp F7  &kp F8  &kp F9  &kp F10                                        &kp ASTERISK     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS
+&trans   &kp F4  &kp F5  &kp F6  &kp F11  &kp RS(RG(NUMBER_4))      &kp EQUAL   &kp SLASH        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS
+&kp ESC  &kp F1  &kp F2  &kp F3  &kp F12  &kp RS(RG(NUMBER_5))      &kp PERIOD  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp BACKSPACE
+&trans   &trans  &trans  &trans  &trans   &trans                    &pim        &pim2                                                               &trans
             >;
         };
 
@@ -158,10 +158,10 @@
 
         MOUSE {
             bindings = <
-&to_layer_0 Q  &to_layer_0 W  &to_layer_0 E  &to_layer_0 R           &to_layer_0 T                                      &trans  &trans    &trans    &trans    &trans
-&to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F           &to_layer_0 G  &trans                      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V           &to_layer_0 B  &trans                      &trans  &trans  &mkp MB4  &trans    &mkp MB5  &trans
-&trans         &trans         &trans         &to_layer_0 LANGUAGE_2  &trans         &to_layer_0 LANGUAGE_1      &trans  &trans                                &trans
+&to_layer_0 Q  &to_layer_0 W  &to_layer_0 E  &to_layer_0 R           &to_layer_0 T                                      &trans  &trans    &trans              &trans    &trans
+&to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F           &to_layer_0 G  &trans                      &trans  &trans  &mkp MB1  &mkp MB3            &mkp MB2  &trans
+&to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V           &to_layer_0 B  &trans                      &trans  &trans  &mkp MB4  &kp LC(DOWN_ARROW)  &mkp MB5  &trans
+&trans         &trans         &trans         &to_layer_0 LANGUAGE_2  &trans         &to_layer_0 LANGUAGE_1      &trans  &trans                                          &trans
             >;
         };
 
